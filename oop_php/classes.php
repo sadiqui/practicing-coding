@@ -1,7 +1,6 @@
 <?php
 
 abstract class Shape {
-    private $something;
     abstract public function calculateArea();
 }
 
