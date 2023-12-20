@@ -8,7 +8,7 @@ class Triangle extends Shape {
     private $base;
     private $height;
     
-    public function __construct($base, $height, $something) {
+    public function __construct($base, $height) {
         $this->base = $base;
         $this->height = $height;
     }
