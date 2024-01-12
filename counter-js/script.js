@@ -14,8 +14,12 @@ document.getElementById('decrement').addEventListener('click', function (event) 
 });
 
 function checkCounter() {
-    if (counter === 11 || counter === -11) {
-        alert('Le compteur a depassé ' + counter + '. Réinitialisez.');
+    if (counter === 11) {
+        alert('Le compteur a depassé ' + (counter - 1) + '. Réinitialisez.');
+        counter = 0;
+        myCounter.innerHTML = counter;
+    } else if (counter === -11) {
+        alert('Le compteur a depassé ' + (counter + 1) + '. Réinitialisez.');
         counter = 0;
         myCounter.innerHTML = counter;
     }
