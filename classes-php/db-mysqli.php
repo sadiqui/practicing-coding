@@ -1,7 +1,6 @@
 <?php
 
 // The following code is an example of db connection using Mysqli
-
 class MySql_database
 {
 
@@ -150,5 +149,3 @@ class MySql_database
 	}
 
 }
-
-?>

@@ -1,7 +1,6 @@
 <?php
 
 // The following code is an example of db connection using PDO
-
 class MySql_database
 {
     private $pdo;
@@ -108,5 +107,3 @@ class MySql_database
         $this->pdo = null;
     }
 }
-
-?>
