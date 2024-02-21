@@ -58,10 +58,10 @@ func main() {
 	}
 
 	fmt.Println()
-	printmath(15.0, 3.0)
+	printmath(15, 3)
 
 	fmt.Println()
-	printmath(float64(15), float64(0))
+	printmath(15, 0)
 }
 
 // Results of 10 & 2
