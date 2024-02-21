@@ -11,7 +11,7 @@ func returnmath(x, y float64) (float64, float64, float64, float64, error) {
 		return sum, dif, pro, quo, fmt.Errorf("division by zero!")
 	}
 	return sum, dif, pro, quo, nil
-}
+} // Pros : reusability for other needs
 
 func printmath(x, y float64) {
 	sum := x + y
@@ -28,7 +28,7 @@ func printmath(x, y float64) {
 	} else {
 		fmt.Println("Quotient:", err)
 	}
-}
+} // Pros : easy use, no print after this
 
 func main() {
 	a, b := 10, 2
